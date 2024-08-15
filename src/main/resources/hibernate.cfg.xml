@@ -18,8 +18,11 @@
         <property name="hibernate.show_sql" >true </property>
         <property name="hibernate.format_sql" >true </property>
 
-<!--          Mapping entity file -->
+        <!--   Mapping entity file -->
         <mapping class="model.Teacher"/>
         <mapping class="model.Department"/>
+        <mapping class="model.Address"/>
+
     </session-factory>
- </hibernate-configuration>
+</hibernate-configuration>
+
